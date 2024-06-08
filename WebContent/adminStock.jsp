@@ -39,7 +39,7 @@
 	<jsp:include page="header.jsp" />
 
 	<div class="text-center"
-		style="color: green; font-size: 24px; font-weight: bold;">Stock
+		style="color: green; font-size: 24px; font-weight: bold; padding: 15px;">Stock
 		Products</div>
 	<div class="container-fluid">
 		<div class="table-responsive ">
@@ -79,7 +79,7 @@
 						%>
 						<td><%=name%></td>
 						<td><%=product.getProdType().toUpperCase()%></td>
-						<td><%=product.getProdPrice()%></td>
+						<td><%=product.getProdPrice()%>/-</td>
 						<td><%=new OrderServiceImpl().countSoldItem(product.getProdId())%></td>
 						<td><%=product.getProdQuantity()%></td>
 						<td>

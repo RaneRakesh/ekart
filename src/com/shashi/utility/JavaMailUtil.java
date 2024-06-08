@@ -59,7 +59,7 @@ public class JavaMailUtil {
 
 			message.setFrom(new InternetAddress(myAccountEmail));
 			message.setRecipient(Message.RecipientType.TO, new InternetAddress(recipientEmail));
-			message.setSubject("Welcome to Ellison Electronics");
+			message.setSubject("Welcome to BT");
 			message.setText("Hey! " + recipientEmail + ", Thanks  for Signing Up with us!");
 			return message;
 

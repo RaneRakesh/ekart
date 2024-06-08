@@ -21,10 +21,9 @@
 <body style="background-color: #E6F9E6;">
 	<!--Company Header Starting  -->
 	<div class="container-fluid text-center"
-		style="margin-top: 45px; background-color: #33cc33; color: white; padding: 5px;">
-		<h2>Ellison Electronics</h2>
-		<h6>We specialize in Electronics</h6>
-		<form class="form-inline" action="index.jsp" method="get">
+		style="margin-top: 45px; background-color: #275df5; color: white; padding: 5px;">
+		<h2>E-Kart</h2>
+		<form class="form-inline" style="padding: 10px;" action="index.jsp" method="get">
 			<div class="input-group">
 				<input type="text" class="form-control" size="50" name="search"
 					placeholder="Search Items" required>
@@ -33,10 +32,10 @@
 				</div>
 			</div>
 		</form>
-		<p align="center"
-			style="color: blue; font-weight: bold; margin-top: 5px; margin-bottom: 5px;"
-			id="message"></p>
 	</div>
+	<p align="center"
+			style="color: blue; font-weight: bold; margin-top: 10px; margin-bottom: 10px;"
+			id="message"></p>
 	<!-- Company Header Ending -->
 
 	<%

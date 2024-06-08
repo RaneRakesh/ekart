@@ -19,9 +19,7 @@
 	<%
 	String message = request.getParameter("message");
 	%>
-	<div class="container">
-		<div class="row"
-			style="margin-top: 5px; margin-left: 2px; margin-right: 2px;">
+	<div class="container" style="padding: 50px;">
 			<form action="./LoginSrv" method="post"
 				class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2"
 				style="border: 2px solid black; border-radius: 10px; background-color: #FFE5CC; padding: 10px;">
@@ -67,8 +65,6 @@
 					</div>
 				</div>
 			</form>
-
-		</div>
 	</div>
 
 	<%@ include file="footer.html"%>

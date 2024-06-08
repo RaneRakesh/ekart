@@ -36,7 +36,7 @@
 	<jsp:include page="header.jsp" />
 
 	<div class="text-center"
-		style="color: green; font-size: 24px; font-weight: bold;">Shipped
+		style="color: green; font-size: 24px; font-weight: bold; padding: 15px;">Shipped
 		Orders</div>
 	<div class="container-fluid">
 		<div class="table-responsive ">
@@ -78,7 +78,7 @@
 						<td><%=userId%></td>
 						<td><%=userAddr%></td>
 						<td><%=quantity%></td>
-						<td>Rs. <%=order.getAmount()%></td>
+						<td>Rs. <%=order.getAmount()%>/-</td>
 						<td class="text-success" style="font-weight: bold;">SHIPPED</td>
 
 					</tr>

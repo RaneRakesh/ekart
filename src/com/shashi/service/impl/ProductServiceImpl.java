@@ -371,6 +371,10 @@ public class ProductServiceImpl implements ProductService {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		if (product == null) {
+            System.err.println("Product not found for ID: " + prodId);
+        }
 
 		DBUtil.closeConnection(con);
 		DBUtil.closeConnection(ps);
