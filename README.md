@@ -48,6 +48,10 @@ E-Kart is an online shopping platform designed to offer a seamless and efficient
 5. **Access the Application:**
     - Open your web browser and navigate to `http://localhost:8080/shopping-cart`.
 
+Default Username And Password For Admin Is "admin@gmail.com" And "admin"
+
+The default Username And Password For User Is "guest@gmail.com" And "guest"
+
 ## Usage
 
 ### User Operations
